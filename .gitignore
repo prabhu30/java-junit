@@ -1,0 +1,54 @@
+HELP.md
+target/classes/
+target/**/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.jar
+*.iml
+*.ipr
+*jar.*
+*.jar.original
+/out/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Orig files after running merge tool
+*.orig
+
+# generated metamodel
+/src/main/generated/
+
+##### VS Code #####
+.vscode
+/target/
